@@ -18,7 +18,7 @@ if [[ ${PV} == *9999* ]] ; then
 else
 	SRC_URI="https://github.com/lutris/lutris/archive/refs/tags/v${PV/_/-}.tar.gz"
 	KEYWORDS="~amd64 ~x86"
-	S="${WORKDIR}/${PN}"
+	S="${WORKDIR}/${P/_/-}"
 fi
 
 LICENSE="GPL-3"
