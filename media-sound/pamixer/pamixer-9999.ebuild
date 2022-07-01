@@ -13,7 +13,9 @@ IUSE=""
 
 RDEPEND="
 	dev-libs/boost
-	media-sound/pulseaudio[alsa]"
+	dev-libs/cxxopts
+	media-sound/pulseaudio
+	media-sound/pulseaudio-daemon[alsa]"
 
 DEPEND="${RDEPEND}"
 
